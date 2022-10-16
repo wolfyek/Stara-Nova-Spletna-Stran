@@ -247,17 +247,6 @@ html{
 	z-index: 99999 !important;
 }
 
-/*Checkout Delivery Calc*/
-.woocommerce-shipping-calculator{
-	width: 100% !important;
-	max-width: 100% !important;
-}
-.shipping-calculator-form{
-	width: 100% !important;
-	max-width: 100% !important;
-	
-}
-
 /*Banners*/
 .ts-banner .box-content{
 	display: flex !important;
@@ -274,54 +263,7 @@ html{
 	height: 40px !important;
 	margin: 0 !important;
 }
-
-/*Fixes*/
-.woocommerce-shipping-totals.shipping td{
-	display: flex !important;
-flex-direction: column;
-	align-items: flex-end;
-	text-align: right !important;
-}
-.woocommerce-shipping-totals.shipping td:before{
-	position: absolute !important;
-	left: 0;
-}
-.woocommerce-shipping-totals.shipping th{
-	text-align: left !important;
-	justify-self: flex-start !important;
-}
-.woocommerce-shipping-methods{
-	padding-left: 0 !important;
-	padding-right: 0 !important;
-}
-.woocommerce-shipping-calculator{
-	display: flex !important;
-	align-items: flex-end;
-	flex-direction: column;
-	margin-top: 12px !important;
-}
-button[name=calc_shipping]{
-	float: right !important;
-} 
-
-@media screen and (max-width: 991px){
-	.woocommerce-shipping-totals.shipping td{
-		padding-left: 0 !important;
-		align-items: flex-end;
-		
-	}
-	.woocommerce-shipping-totals.shipping td:before{
-		position: relative !important;
-		margin-right: auto;
-	}
-}
-
-/*Current Album Accent*/
-.products-album-themed .price .amount bdi{
-	color: var(--d-current-album-accent) !important;
-}
-
-
+	
 /*Badge*/
 .product-label .new{
 	font-size: 9px !important;
@@ -361,50 +303,6 @@ button[name=calc_shipping]{
 
 .breadcrumb-title-wrapper.ts-breadcrumb-parallax, .breadcrumb-title-wrapper.ts-breadcrumb-parallax .breadcrumb-content{
 background-attachment: inherit;
-}
-
-/*Cookies*/
-.cmplz-cookiebanner .cmplz-header .cmplz-title{
-	color: white !important;
-}
-#cmplz-document{
-	max-width: 100% !important;
-	margin: 0 !important;
-}
-#cmplz-document h2{
-	border-bottom: 0 !important;
-	margin-bottom: 0 !important;
-	padding-top: 20px !important;
-}
-.cmplz-service-header{
-	background: var(--d-border-muted) !important;
-}
-.cmplz-service-header p{
-	color: white;
-}
-#cmplz-cookies-overview .cmplz-dropdown .cookies-per-purpose, #cmplz-document .cmplz-dropdown .cookies-per-purpose{
-	background: transparent !important!important;
-}
-.cookies-per-purpose .purpose,
-.cookies-per-purpose .purpose *{
-	background: var(--d-border) !important;
-}
-.cookies-per-purpose,
-.cookies-per-purpose *{
-	background: var(--d-dark) !important;
-}
-.cookies-per-purpose{
-	border-color: transparent !important;
-}
-#cmplz-cookies-overview .cmplz-dropdown, #cmplz-document .cmplz-dropdown{
-	background: var(--d-border-muted);
-}
-.cmplz-categories .cmplz-category{
-	background: var(--d-border) !important;
-	color: white !important;
-}
-.cmplz-categories .cmplz-description{
-	background: #464646;
 }
 
 /*404*/
@@ -531,37 +429,6 @@ left: -160px;
     display: none; 
 }
 
-/*Events*/
-.event_listings{
-	padding-top: 10px;
-}
-.wpem-event-listings-header{
-	display: none;
-}
-.wpem-event-layout-wrapper {
-	border: 0 !important;
-}
-.wpem-event-layout-wrapper .event_listing{
-	border: 0 !important;
-	background: var(--d-dark);
-	padding: 2em !important; 
-	transition: 0.3s !important;
-	box-shadow: inset 3px 0 0 0 var(--d-border-muted);
-}
-.wpem-event-layout-wrapper .event_listing *{
-	transition: 0.3s !important;
-}
-.wpem-event-layout-wrapper:hover .event_listing{
-	box-shadow: inset 3px 0 0 0 var(--d-accent);
-}
-.wpem-event-layout-wrapper .event_listing .wpem-heading-text,
-.wpem-event-date *{
-	color: white !important;
-}
-.wpem-event-layout-wrapper:hover .event_listing .wpem-heading-text{
-	color: var(--d-accent) !important;
-}
-
 /*Animate BG Overlay*/
 .animate-bg-overlay .elementor-background-overlay{
 	animation: 2.5s ease alternate-reverse infinite overlay-anim;
@@ -664,19 +531,6 @@ article .article-content{
 .collab-song-timeline .collab-list li a:hover:before{
 	background: var(--d-accent);
 	background-image: url('https://drill.si/images/icons/icons8-youtube.svg') !important;
-}
-
-/*Spotify Embed Sticky*/
-.spotify-embed-sticky{
-	position: fixed !important;
-	bottom: -8px !important;
-	left: 0;
-	right: 0;
-	margin: 0 !important;
-	z-index: 999;
-}
-.spotify-embed-sticky iframe{
-	border-radius: 0 !important;
 }
 
 /*Homepage*/
